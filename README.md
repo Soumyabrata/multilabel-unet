@@ -16,7 +16,7 @@ The codes are written in `MATLAB` and `python`.
         * 3GT: contains the ternary ground-truth images
         * images: contains all input images
         * samples: contains sample images
-2. `python2 training.py` Run this program to train the model on the dataset of sky/cloud images with ternary ground-truth maps. It saves the trained model in `./results/model_num.json` and `./results/model_num.h5`. For the purpose of reproducibility, our trained model is available from this link. Please download and save the trained models inside `trained-model` folder for subsequent evaluations.
+2. `python2 training.py` Run this program to train the model on the dataset of sky/cloud images with ternary ground-truth maps. It saves the trained model in `./results/model_num.json` and `./results/model_num.h5`. For the purpose of reproducibility, our trained model is available from [this](https://drive.google.com/drive/folders/1-ajM2OUscNSzY28kBF1-jpIncXvrcsYV?usp=sharing) link. Please download and save the files `model_num.h5` and `model_num.json` inside `trained-model` folder for subsequent evaluations.
 3. `python2 testing.py` Run this program to generate the testing results, after model is trained. For example, this script now generates the results for `B1.jpg` file.
 4. `python2 unet_perform.py` Run this program to evaluate the performance of U-Net model over 10 experiments. It saves the results in a text file `./results/unet-result.txt`.
 5. Open MATLAB environment, and run the script `devEtal.m`. It computes the performance of Dev et al. 2015 approach and saves the results in a text file `./results/devetalresult.txt`.
