@@ -3,6 +3,8 @@
 With the spirit of reproducible research, this repository contains all the codes required to produce the results in the manuscript: 
 > S. Dev, S. Manandhar, Y. H. Lee and S. Winkler, Multi-label Cloud Segmentation Using a Deep Network, IEEE AP-S Symposium on Antennas and Propagation and USNC-URSI Radio Science Meeting, 2019.
 
+![summary](./results/aps2019b-summary.png)
+
 Please cite the above paper if you intend to use whole/part of the code. This code is only for academic and research purposes.
 
 ## Code organization
