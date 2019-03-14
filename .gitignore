@@ -2,3 +2,9 @@
 .ipynb_checkpoints/
 *.pyc 
 *.m~
+trained-model/model_num.h5
+trained-model/model_num.json
+results/*.txt
+HYTA/images/*.jpg
+HYTA/3GT/*.png
+HYTA/2GT/*.jpg
